@@ -1,0 +1,48 @@
+
+body {
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.title {
+    font-size: 50px;
+    
+    color:wheat;
+    background-image: url(images/scoreback.jpg);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#scoreboard {
+    font-size: 20 px;
+    color: wheat;
+   
+    padding: 10px;
+    border-radius: 5px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#sc {
+    background: red;
+    background: -webkit-linear-gradient(left, orange , yellow, green, cyan, blue, violet); 
+    background: -o-linear-gradient(right, orange, yellow, green, cyan, blue, violet); 
+    background: -moz-linear-gradient(right, orange, yellow, green, cyan, blue, violet);
+    background: linear-gradient(to right, orange , yellow, green, cyan, blue, violet); 
+}
+
+.highlight {
+    background-color: white;
+    border: 5px solid lightgreen;
+    color: black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#warning {
+    color: red;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#gametitle {
+    background-image: url(images/scoreback.jpg);
+    font-size: 30px;
+    color: azure;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}

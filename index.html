@@ -1,0 +1,51 @@
+
+<!DOCTYPE html>
+<html>
+ 
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport",
+          content="width=device-width, initial-scale=1.0">
+    <title>GaMe</title>
+    
+    <link rel="stylesheet" href="style.css">
+    
+    <script src="script.js"></script>
+    
+</head>
+ 
+<body>
+    <h1 id="gametitle">SNAKE GAME
+          <div class="title">By Hisham K.</div>
+          <div id="scoreboard">Score: 0</div>
+          <button onClick="window.location.reload();">RESET</button>
+    </h1>
+    <canvas id="board"></canvas>
+    <style>
+        body {
+          background-image: url('images/background.jpg');
+        }
+        </style>
+    
+    <h2>
+      <div id="difficulty">FISRT CHOOSE DIFFICULTY: </div>
+          <button class="highlight" onclick="easy()">NOOB</button>
+          <button class="highlight" onclick="medium()">AVERAGE JOE</button>
+          <button class="highlight" onclick="hard()">GIGA CHAD</button>
+          <h3 id="warning">
+            RESET BEFORE CHOOSING DIFFICULTY
+            <h4>
+              <div id="sc">CHOOSE SNAKE COLOUR: </div>
+              <h5>Write Color Below</h5>
+              <input type="text" id="input"></input> 
+
+            </h4>
+          </h3>
+          
+    </h2>
+    
+</body>
+ 
+</html>
+
