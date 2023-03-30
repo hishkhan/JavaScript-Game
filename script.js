@@ -144,7 +144,6 @@ function update() {
 // how=  snake moves
 function changeDirection(e) {
     if (e.code == "ArrowUp" && speedY != 1) {
-        // If up arrow key pressed with this condition...
         // snake will not move in the opposite direction
         speedX = 0;
         speedY = -1;
