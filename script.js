@@ -141,7 +141,7 @@ function update() {
     setTimeout(update, difficulty);
 }
  
-// Movement of the Snake - We are using addEventListener
+// how=  snake moves
 function changeDirection(e) {
     if (e.code == "ArrowUp" && speedY != 1) {
         // If up arrow key pressed with this condition...
@@ -166,7 +166,7 @@ function changeDirection(e) {
     }
 }
  
-// Randomly place food
+// places food randomly
 function placeFood() {
  
     // in x coordinates.
@@ -176,6 +176,7 @@ function placeFood() {
     foodY = Math.floor(Math.random() * total_row) * blockSize;
 }
 
+// score function place after snake eats food
 function updateScore(points) {
     score += points;
     document.getElementById("scoreboard").textContent = "Score: " + score;
